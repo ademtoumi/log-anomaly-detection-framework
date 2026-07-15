@@ -1,0 +1,46 @@
+{
+  "HierAttnBlock": {
+    "Precision": 0.0292,
+    "Recall": 0.9973,
+    "F1": 0.0568,
+    "AUC": 0.499
+  },
+  "DeepLog": {
+    "Precision": 0.9945,
+    "Recall": 0.3777,
+    "F1": 0.5474,
+    "AUC": 0.6888
+  },
+  "LogBERT": {
+    "Precision": 0.9056,
+    "Recall": 0.9973,
+    "F1": 0.9493,
+    "AUC": 1.0
+  },
+  "Ablation": {
+    "Sequence Only": {
+      "Precision": 0.9494,
+      "Recall": 0.9967,
+      "F1": 0.9725,
+      "AUC": 0.9999
+    },
+    "Structural Only": {
+      "Precision": 0.6497,
+      "Recall": 0.288,
+      "F1": 0.3991,
+      "AUC": 0.6893
+    },
+    "No Auxiliary Head": {
+      "Precision": 0.0293,
+      "Recall": 1.0,
+      "F1": 0.0569,
+      "AUC": 0.4997
+    },
+    "HierAttn-Block (Full)": {
+      "Precision": 0.0292,
+      "Recall": 0.9973,
+      "F1": 0.0568,
+      "AUC": 0.499
+    }
+  }
+}

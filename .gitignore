@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large data files (datasets must be downloaded separately)
+*.csv
+*.log
+*.gz
+*.tar
+*.zip
+
+# Trained model weights (large)
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Thesis PDFs (not included per repo scope)
+*.pdf
