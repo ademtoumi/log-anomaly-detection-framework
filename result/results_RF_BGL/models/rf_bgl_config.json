@@ -1,0 +1,21 @@
+{
+  "n_estimators": 200,
+  "max_depth": 48,
+  "min_samples_split": 15,
+  "min_samples_leaf": 6,
+  "class_weight": "balanced",
+  "best_val_f1": 0.9955599123515165,
+  "Dataset": "BGL",
+  "Model": "RandomForest",
+  "Type": "Supervised (ML)",
+  "Precision": 1.0,
+  "Recall": 0.9922,
+  "F1_Anomaly": 0.9961,
+  "Macro_F1": 0.9979,
+  "AUC": 1.0,
+  "MCC": 0.9958,
+  "Avg_Precision": 0.9999,
+  "Threshold": 0.864434,
+  "Inference_Time_s": 6.0247,
+  "Inference_Per_Sample_ms": 0.0063
+}

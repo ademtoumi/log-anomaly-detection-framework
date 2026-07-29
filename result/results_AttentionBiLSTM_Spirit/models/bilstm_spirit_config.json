@@ -1,0 +1,17 @@
+{
+  "embed_dim": 32,
+  "hidden_size": 256,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "lr": 0.0016738085788752138,
+  "batch_size": 512,
+  "vocab_size": 6578,
+  "window_size": 20,
+  "step_size": 10,
+  "model": "AttentionBiLSTM",
+  "dataset": "Spirit",
+  "train_time_s": 404.53,
+  "threshold": 0.508194,
+  "best_val_f1": 0.98358,
+  "threshold_split": "validation"
+}

@@ -1,0 +1,21 @@
+{
+  "embed_dim": 64,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "batch_size": 256,
+  "threshold": 0.7829800248146057,
+  "vocab_size": 988,
+  "Dataset": "BGL",
+  "Model": "BiLSTM Autoencoder",
+  "Type": "Unsupervised (DL)",
+  "Precision": 0.9325,
+  "Recall": 0.8078,
+  "F1_Anomaly": 0.8657,
+  "Macro_F1": 0.927,
+  "AUC": 0.9319,
+  "MCC": 0.8568,
+  "Threshold": 0.78298,
+  "Inference_Time_s": 2.7686
+}

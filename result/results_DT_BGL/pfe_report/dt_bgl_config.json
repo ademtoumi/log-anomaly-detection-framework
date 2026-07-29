@@ -1,0 +1,15 @@
+{
+  "max_depth": 25,
+  "criterion": "entropy",
+  "min_samples_split": 10,
+  "min_samples_leaf": 2,
+  "class_weight": null,
+  "val_f1": 0.9956902143361633,
+  "test_f1": 0.9961604679474712,
+  "test_precision": 0.9999855374291334,
+  "test_recall": 0.9923645496950125,
+  "test_auc": 0.999979417579629,
+  "threshold": 0.35922922922922923,
+  "Inference_Time_s": 0.0781,
+  "Inference_Per_Sample_ms": 0.0001
+}

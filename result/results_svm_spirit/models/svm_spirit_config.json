@@ -1,0 +1,19 @@
+{
+  "C": 1.0,
+  "class_weight": "balanced",
+  "max_iter": 10000,
+  "best_val_f1": 0.999882297551789,
+  "Dataset": "SPIRIT",
+  "Model": "SVM",
+  "Type": "Supervised (ML)",
+  "Precision": 0.9999,
+  "Recall": 0.9998,
+  "F1_Anomaly": 0.9998,
+  "Macro_F1": 0.9999,
+  "AUC": 1.0,
+  "MCC": 0.9998,
+  "Avg_Precision": 0.9999,
+  "Threshold": 0.699534,
+  "Inference_Time_s": 0.8823,
+  "Inference_Per_Sample_ms": 0.0009
+}

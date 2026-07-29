@@ -1,0 +1,19 @@
+{
+  "C": 1.0,
+  "class_weight": "balanced",
+  "max_iter": 10000,
+  "best_val_f1": 0.9956612612612613,
+  "Dataset": "BGL",
+  "Model": "SVM",
+  "Type": "Supervised (ML)",
+  "Precision": 1.0,
+  "Recall": 0.9923,
+  "F1_Anomaly": 0.9961,
+  "Macro_F1": 0.9979,
+  "AUC": 1.0,
+  "MCC": 0.9959,
+  "Avg_Precision": 0.9999,
+  "Threshold": 0.754813,
+  "Inference_Time_s": 0.2519,
+  "Inference_Per_Sample_ms": 0.0003
+}

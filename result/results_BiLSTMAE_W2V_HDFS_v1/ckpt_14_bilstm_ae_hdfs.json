@@ -1,0 +1,16 @@
+{
+  "sessions_ready": true,
+  "max_seq_len": 20,
+  "vocab_size": 45,
+  "n_sessions": 575061,
+  "w2v_ready": true,
+  "w2v_path": "/kaggle/working/models/w2v_hdfs_full.model",
+  "w2v_vocab_sz": 43,
+  "ae_done": true,
+  "threshold": 0.00035611036742233293,
+  "best_val_f1": 0.9497553407327843,
+  "best_val_mse": 1.2287536604802806e-05,
+  "test_f1": 0.8514,
+  "test_auc": 0.9988,
+  "test_mcc": 0.8587
+}

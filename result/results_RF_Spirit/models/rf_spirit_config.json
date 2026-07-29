@@ -1,0 +1,21 @@
+{
+  "n_estimators": 200,
+  "max_depth": 20,
+  "min_samples_split": 2,
+  "min_samples_leaf": 1,
+  "class_weight": "balanced_subsample",
+  "best_val_f1": 0.9999542265263819,
+  "Dataset": "SPIRIT",
+  "Model": "RandomForest",
+  "Type": "Supervised (ML)",
+  "Precision": 1.0,
+  "Recall": 0.9999,
+  "F1_Anomaly": 0.9999,
+  "Macro_F1": 1.0,
+  "AUC": 1.0,
+  "MCC": 0.9999,
+  "Avg_Precision": 0.9999,
+  "Threshold": 0.077688,
+  "Inference_Time_s": 5.9972,
+  "Inference_Per_Sample_ms": 0.006
+}

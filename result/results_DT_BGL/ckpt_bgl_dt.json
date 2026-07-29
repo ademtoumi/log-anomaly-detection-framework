@@ -1,0 +1,27 @@
+{
+  "data_ready": true,
+  "shapes": {
+    "train": [
+      3322347,
+      3953
+    ],
+    "val": [
+      474622,
+      3953
+    ],
+    "test": [
+      949243,
+      3953
+    ]
+  },
+  "dt_done": true,
+  "test_f1": 0.9961604679474712,
+  "test_auc": 0.999979417579629,
+  "best_params": {
+    "max_depth": 25,
+    "criterion": "entropy",
+    "min_samples_split": 10,
+    "min_samples_leaf": 2,
+    "class_weight": null
+  }
+}

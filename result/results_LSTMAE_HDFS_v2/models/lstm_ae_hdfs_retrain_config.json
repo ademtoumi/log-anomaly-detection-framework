@@ -1,0 +1,19 @@
+{
+  "embed_dim": 64,
+  "hidden_size": 256,
+  "num_layers": 1,
+  "dropout": 0.3598528437324806,
+  "lr": 0.0010502105436744284,
+  "batch_size": 512,
+  "vocab_size": 42,
+  "max_seq_len": 75,
+  "threshold": 0.77994614,
+  "aggregation": "lenorm",
+  "strategy": "Retrain+lenorm+Fbeta(b=0.5)",
+  "F1": 0.6326,
+  "Precision": 0.6315,
+  "Recall": 0.6337,
+  "MCC": 0.6271,
+  "AUC": 0.9907,
+  "target_reached": false
+}

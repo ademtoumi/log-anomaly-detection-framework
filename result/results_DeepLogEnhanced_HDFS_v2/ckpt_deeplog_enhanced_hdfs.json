@@ -1,0 +1,28 @@
+{
+  "done": true,
+  "model": "DeepLog Enhanced",
+  "dataset": "HDFS",
+  "protocol": "hierattn_pipeline",
+  "precision": 0.9893,
+  "recall": 0.9914,
+  "f1": 0.9904,
+  "auc": 1.0000,
+  "source_notebook": "notebooks_standalone/DeepLog Enhanced -- HDFS Log Anomaly Detection.ipynb",
+  "architecture": "Bidirectional LSTM, window=3, MLM pretraining + supervised fine-tuning",
+  "improvements_over_original": [
+    "Bidirectional LSTM (vs unidirectional in Du et al. 2017)",
+    "Window size = 3 (vs 10 in original, optimal for short HDFS sessions)",
+    "Two-stage training: unsupervised MLM pretraining on normal sessions + supervised fine-tuning",
+    "Session scoring: max-aggregation (any anomalous window = anomaly)",
+    "ReduceLROnPlateau scheduler",
+    "FocalLoss in fine-tune stage for class imbalance"
+  ],
+  "input": "features.pkl from hierattn_output/cache (Notebook 1 output)",
+  "output_artifacts": [
+    "hierattn_output/models/deeplog_enhanced.pt",
+    "hierattn_output/cache/baseline_results.pkl",
+    "hierattn_output/figures/cm_deeplog.png",
+    "hierattn_output/figures/deeplog_training_curves.png"
+  ],
+  "note": "This result is from the HierAttnBlock Kaggle pipeline, not the standalone notebook 13 protocol."
+}

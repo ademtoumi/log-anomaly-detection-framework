@@ -1,0 +1,13 @@
+{
+  "vocab_size": 988,
+  "Dataset": "BGL",
+  "Model": "DeepLog",
+  "Type": "Unsupervised (DL)",
+  "Precision": 0.9122,
+  "Recall": 0.8857,
+  "F1_Anomaly": 0.8987,
+  "Macro_F1": 0.9447,
+  "MCC": 0.8896,
+  "Best_k": 15,
+  "Inference_Time_s": 8.4174
+}
